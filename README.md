@@ -1,4 +1,4 @@
-== Compilación ==
+## Compilación ##
 
 Como parametros de compilación se debe colocar:
 -DFUSE_USE_VERSION=27
@@ -9,7 +9,7 @@ Como parametros de linkeo se debe colocar:
 -lfuse
 
 
-== Ejecución ==
+## Ejecución ##
 
 Montar el ejemplo en el directorio tmp:
 
@@ -19,7 +19,7 @@ Montar el ejemplo en el directorio tmp, con mensaje de bienvenida:
 
 ./fuse_example ./tmp --welcome-msg "Bienvenido al Ejemplo" -f
 
-== FUSE Parameters ==
+## FUSE Parameters ##
 
 * -f Desactiva la ejecución en modo background
 * -s La biblioteca de FUSE se ejecuta en modo single thread
